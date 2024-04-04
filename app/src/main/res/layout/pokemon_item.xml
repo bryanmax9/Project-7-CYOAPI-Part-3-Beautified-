@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp">
+
+    <!-- Circular Image view for the Pokemon image -->
+    <ImageView
+        android:id="@+id/pokemon_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:scaleType="centerCrop" />
+
+    <!-- Text view for the Pokemon name -->
+    <TextView
+        android:id="@+id/pokemon_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@id/pokemon_image"
+        app:layout_constraintTop_toTopOf="@id/pokemon_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- Text view for the Pokemon details -->
+    <TextView
+        android:id="@+id/pokemon_details"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/pokemon_name"
+        app:layout_constraintStart_toStartOf="@id/pokemon_name"
+        app:layout_constraintEnd_toEndOf="@id/pokemon_name"
+        android:textSize="14sp"
+        android:maxLines="3"
+        android:ellipsize="end" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
