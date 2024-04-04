@@ -1,16 +1,17 @@
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
+<!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Project 6 - CYOAPI Part 2: RecyclerView Edition
+# AND101 Project 7 - CYOAPI Part 3: Beautified
 
-Submitted by: **Bryan Tineo**
+Submitted by: **Your Name Here**
 
-Time spent: **13** hours spent in total
+Time spent: **X** hours spent in total
 
 ## Summary
 
 **Name of your app** is an android app that **fill in description (Example: "An app that displays a scrollable list of characters from the Marvel API")**
 
-If I had to describe this project in three (3) emojis, they would be: **📲👾🧐**
+If I had to describe this project in three (3) emojis, they would be: **emojis here**
 
 ## Application Features
 
@@ -18,15 +19,16 @@ If I had to describe this project in three (3) emojis, they would be: **📲👾
 
 The following REQUIRED features are completed:
 
-- [X] Make an API call to an API of your choice using AsyncHTTPClient
-- [X] Implement a RecyclerView to display a list of entries from the API
-- [X] Display at least three (3) pieces of data for each RecyclerView item
+- [ ] App contains a RecyclerView that displays a list of scrollable data
+- [ ] App displays at least two (2) pieces of data for each RecyclerView item
+- [ ] Use a downloadable font with custom color and size
+- [ ] Modify the theme of the app in `themes.xml`
+- [ ] Define and apply at least one style in **either** `themes.xml` or a new file `styles.xml`
 
 The following STRETCH features are implemented:
 
-- [ ] Add a UI element for the user to interact with API further
-- [ ] Show a `Toast` or `Snackbar` when an item is clicked
-- [ ] Add item dividers with `DividerItemDecoration`
+- [ ] Update the night theme to use different versions of styles when in dark mode
+- [ ] Use different drawables when in dark mode
 
 The following EXTRA features are implemented:
 
@@ -38,7 +40,7 @@ Here's a video / GIF that demos all of the app's implemented features:
 
 <img src='http://i.imgur.com/uOUN3wT.gif' title='Video Demo' width='' alt='Video Demo' />
 
-GIF created with **[ScreenToGif](https://www.screentogif.com/)**
+GIF created with **your chosen GIF tool**
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
@@ -47,11 +49,11 @@ GIF created with **[ScreenToGif](https://www.screentogif.com/)**
 
 ## Notes
 
-- In this project, I mastered the use of RecyclerView in Android development, enabling me to efficiently display a list of items. I also honed my skills in fetching and rendering images from an API, which is a vital aspect of dynamic content presentation in modern apps. Additionally, I learned to customize the layout of each item in the RecyclerView, giving me the flexibility to create visually appealing interfaces tailored to the app's design requirements. These newly acquired skills are not only exciting but also fundamental for integrating APIs and designing rich user experiences in mobile applications.              
+Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
 
 ## License
 
-Copyright **2024** **Bryan Tineo**
+Copyright **yyyy** **your name**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
