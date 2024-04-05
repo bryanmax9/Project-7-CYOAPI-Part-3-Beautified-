@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#003166"/> <!-- or any other color for the frame -->
+    <stroke android:width="3dp" android:color="#b3c9df"/> <!-- Thicker border with the specified color -->
+    <corners android:radius="5dp"/> <!-- adjust the radius for the amount of roundness -->
+</shape>

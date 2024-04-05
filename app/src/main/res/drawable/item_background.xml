@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#000000"/> <!-- Match the color to your theme -->
+    <corners android:radius="12dp"/> <!-- Match the corner radius to the desired shape -->
+    <!-- Define the size if needed, or let the container size dictate the shape size -->
+</shape>

@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun getPokemonList() {
         val client = AsyncHttpClient()
-        client["https://pokeapi.co/api/v2/pokemon?limit=70", object : JsonHttpResponseHandler() {
+        client["https://pokeapi.co/api/v2/pokemon?limit=149", object : JsonHttpResponseHandler() {
             override fun onSuccess(statusCode: Int, headers: Headers?, json: JSON) {
                 Log.d("Pokemon", "JSON Response successful")
                 val resultsArray = json.jsonObject.getJSONArray("results")
@@ -90,8 +90,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun checkAllPokemonLoaded() {
-        if (loadedPokemon == 70) { // Assuming you're loading 70 pokemons
-            updateUIWithImages()
+        if (loadedPokemon == 149) { // Assuming you're loading 149 pokemons
+            runOnUiThread {
+                updateUIWithImages()
+            }
         }
     }
 
@@ -99,5 +101,6 @@ class MainActivity : AppCompatActivity() {
         Log.d("Pokemon App", "All image URLs loaded: $pokemons")
         rvPokemon.adapter = PokemonAdapter(pokemons)
     }
+
 }
 

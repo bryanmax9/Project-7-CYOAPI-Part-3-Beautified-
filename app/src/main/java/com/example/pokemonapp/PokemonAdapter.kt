@@ -31,7 +31,8 @@ class PokemonAdapter(private val pokemonList: List<Pokemon>) : RecyclerView.Adap
 
         Glide.with(holder.itemView.context)
             .load(pokemon.imageUrl)
-            .circleCrop() // This will make the image circular
+            .circleCrop()
+            .error(R.drawable.default_pokemon)
             .into(holder.pokemonImage)
     }
 }

@@ -3,32 +3,43 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:padding="8dp">
+    android:background="@drawable/item_background"
+    android:padding="50dp"
+    >
 
     <!-- Circular Image view for the Pokemon image -->
-    <ImageView
-        android:id="@+id/pokemon_image"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_marginEnd="16dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:scaleType="centerCrop" />
 
     <!-- Text view for the Pokemon name -->
+
+    <ImageView
+        android:id="@+id/pokemon_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/rounded_square"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54" />
+
     <TextView
         android:id="@+id/pokemon_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        app:layout_constraintStart_toEndOf="@id/pokemon_image"
-        app:layout_constraintTop_toTopOf="@id/pokemon_image"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:ellipsize="end"
+        android:fontFamily="@font/aclonica"
+        android:maxLines="1"
+        android:paddingLeft="48dp"
+        android:shadowColor="#FF0000"
+        android:textColor="@android:color/black"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:ellipsize="end"
-        android:maxLines="1" />
+        android:background="@drawable/trapezoid_shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/pokemon_image"
+        app:layout_constraintTop_toTopOf="@id/pokemon_image" />
 
     <!-- Text view for the Pokemon details -->
     <TextView
@@ -39,8 +50,10 @@
         app:layout_constraintTop_toBottomOf="@id/pokemon_name"
         app:layout_constraintStart_toStartOf="@id/pokemon_name"
         app:layout_constraintEnd_toEndOf="@id/pokemon_name"
+        android:textColor="@android:color/white"
         android:textSize="14sp"
         android:maxLines="3"
-        android:ellipsize="end" />
+        android:ellipsize="end"
+        android:paddingLeft="10dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
