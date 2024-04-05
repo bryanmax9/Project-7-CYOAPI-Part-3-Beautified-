@@ -3,15 +3,15 @@
 
 # AND101 Project 7 - CYOAPI Part 3: Beautified
 
-Submitted by: **Your Name Here**
+Submitted by: **Bryan Tineo**
 
-Time spent: **X** hours spent in total
+Time spent: **7** hours spent in total
 
 ## Summary
 
-**Name of your app** is an android app that **fill in description (Example: "An app that displays a scrollable list of characters from the Marvel API")**
+**Pokemon Info App** is an android app that **allows Pokemon players to get relevant information when trying to increase the happiness of their Pokemon or they want to hatch an egg from that pokemon specie.**
 
-If I had to describe this project in three (3) emojis, they would be: **emojis here**
+If I had to describe this project in three (3) emojis, they would be: **😎📲👻**
 
 ## Application Features
 
@@ -19,11 +19,11 @@ If I had to describe this project in three (3) emojis, they would be: **emojis h
 
 The following REQUIRED features are completed:
 
-- [ ] App contains a RecyclerView that displays a list of scrollable data
-- [ ] App displays at least two (2) pieces of data for each RecyclerView item
-- [ ] Use a downloadable font with custom color and size
-- [ ] Modify the theme of the app in `themes.xml`
-- [ ] Define and apply at least one style in **either** `themes.xml` or a new file `styles.xml`
+- [X] App contains a RecyclerView that displays a list of scrollable data
+- [X] App displays at least two (2) pieces of data for each RecyclerView item
+- [X] Use a downloadable font with custom color and size
+- [X] Modify the theme of the app in `themes.xml`
+- [X] Define and apply at least one style in **either** `themes.xml` or a new file `styles.xml`
 
 The following STRETCH features are implemented:
 
@@ -40,7 +40,7 @@ Here's a video / GIF that demos all of the app's implemented features:
 
 <img src='http://i.imgur.com/MdxqE0U.gif' title='Video Demo' width='' alt='Video Demo' />
 
-GIF created with **your chosen GIF tool**
+GIF created with **[ScreenToGif](https://www.screentogif.com/)**
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
@@ -49,11 +49,11 @@ GIF created with **your chosen GIF tool**
 
 ## Notes
 
-Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
+- In this project I learned how to use themes as well as create XML drawables to improve the style of my app. It was a entertaining project since I had to improve the style of an APP I liked so much building from 0 😅.
 
 ## License
 
-Copyright **yyyy** **your name**
+Copyright **2024** **Bryan Tineo**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
